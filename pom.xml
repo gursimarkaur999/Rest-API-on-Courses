@@ -35,6 +35,13 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+		
+		<!-- Rate Limit bucket4j api -->
+		<dependency>
+		<groupId>com.github.vladimir-bukhtoyarov</groupId>
+		<artifactId>bucket4j-core</artifactId>
+		<version>4.10.0</version>
+		</dependency>
 	</dependencies>
 
 	<build>
